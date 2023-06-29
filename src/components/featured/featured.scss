@@ -4,7 +4,7 @@
 
     .category{
         position: absolute;
-        top: 80px;
+        top: 67px;
         width: 100%;
         height: 69px;
         display: flex;
@@ -39,8 +39,8 @@
     }
     .sub-menu{
         position: absolute;
-        top: 20%;
-        left: 290px;
+        top: 16.5%;
+        left: 248px;
         position: fixed;
         width: 387px;
         height: 218px;
@@ -61,6 +61,10 @@
                 border-bottom: 1px solid white;
             }
         }
+    }
+
+    .inactive{
+        display: none;
     }
     
     img{

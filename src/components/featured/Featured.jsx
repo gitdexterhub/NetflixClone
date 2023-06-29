@@ -1,18 +1,30 @@
 import { ArrowDropDown, InfoOutlined, PlayArrow } from '@mui/icons-material'
 import './featured.scss'
+import { useState } from 'react';
 
 export default function Featured() {
+
+  const[genres, setGenres] = useState(false);
+
+  const toggleGenres = () =>{
+    if(genres === false){
+      setGenres(true);
+    }else{
+      setGenres(false);
+    }
+  }
+
   return (
     <div className='featured'>
        <div className="category" >
     <span className='type-genre'>TV Shows</span>
-    <div className='genre-content'>
+    <div className='genre-content' onClick={toggleGenres}>
       <p>Genres</p>
      <ArrowDropDown/>
     </div>
   </div>
 
-<div className='sub-menu'>
+<div className={genres ? 'sub-menu' : 'sub-menu inactive'}>
       <ul className="sub-menu-list multi-column">
         <li className="sub-menu-item">
           <a href="#" className="sub-menu-link">Action</a>

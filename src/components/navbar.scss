@@ -14,6 +14,7 @@
 
     &.scrolled{
         background-color: var(--main-color);
+        transition: 1s;
     }
 
     .container{
@@ -106,7 +107,6 @@
             right: 50px;
             background-color: var(--main-color);
             display: none;
-    
             .profile-link{
                 display: flex;
                 color: white;
@@ -118,7 +118,7 @@
                     width: 32px;
                     height: 32px;
                 }
-            
+  
                 .profile-options{
                     margin-left: 10px;
                 }
@@ -128,6 +128,12 @@
                     height: 24px;
                 }
                 
+            }
+
+            .profile-link:hover{
+                .profile-options{
+                    border-bottom: 1px solid white;
+                }
             }
 
             .settings{
@@ -148,12 +154,13 @@
         &:hover{
             .options{
                 display: block;
+                transition: transform 0.5s ease;
             }
             .arrowUp{
                 display: block;
             }
             .arrowDown{
-                transition: transform 0.3s ease;
+                transition: transform 0.5s ease;
                 transform: rotate(180deg);
             }
         }
