@@ -2,7 +2,7 @@ import { ArrowDropDown, InfoOutlined, PlayArrow } from '@mui/icons-material'
 import './featured.scss'
 import { useState } from 'react';
 
-export default function Featured() {
+export default function Featured({type}) {
 
   const[genres, setGenres] = useState(false);
 
@@ -17,7 +17,7 @@ export default function Featured() {
   return (
     <div className='featured'>
        <div className="category" >
-    <span className='type-genre'>TV Shows</span>
+    <span className='type-genre'>{type === 'Movies' ? 'Movies' : 'TV Shows'}</span>
     <div className='genre-content' onClick={toggleGenres}>
       <p>Genres</p>
      <ArrowDropDown/>

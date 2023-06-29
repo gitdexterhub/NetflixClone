@@ -58,7 +58,7 @@ const Navbar = () => {
             <ArrowDropUpIcon className='arrowUp '/>
             <div className="options">
                     <div>
-                      <a href="#" className='profile-link'>
+                      <a href="https://www.linkedin.com/in/diego-al/" className='profile-link'>
                         <div className="avatar-wrapper">
                           <img src="https://scontent.fbog2-5.fna.fbcdn.net/v/t1.6435-9/156482096_5104818216258257_409580203125248892_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_eui2=AeHHfnJaRMApzwlgaYYDMgD0p5bpAuVkQwanlukC5WRDBoTFWMI1bc_hEov6OzJeUogXvkLWpDdSB1tm18aEp81T&_nc_ohc=uHhD6nbOUOMAX86u3Or&_nc_ht=scontent.fbog2-5.fna&oh=00_AfAzECpoj1L-5is9NWrzK-6h4CjxqRXj89mYgsVfeZQlcA&oe=64C33B3A" alt="" className='avatar-wrapper'/>
                         </div>

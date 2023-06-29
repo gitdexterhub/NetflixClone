@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div className='home'>
         <Navbar/> 
-        <Featured type="TV shows"/>
+        <Featured/>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore eum omnis nihil enim nostrum aperiam optio possimus. Reprehenderit eveniet ad ipsa voluptas cupiditate voluptatibus molestias eligendi architecto beatae qui? Quia?
         Excepturi, ipsum id soluta placeat voluptate cum dolores neque quisquam aut dolor quo molestiae at, distinctio laborum itaque delectus impedit quod doloremque? Explicabo amet, dolorum consequatur odit alias perspiciatis nobis.
         Nobis harum fugiat consequuntur perspiciatis assumenda inventore neque dignissimos exercitationem quod. Veniam quasi debitis reiciendis esse natus, rerum eveniet. Odit dolorem maiores molestiae? Atque id adipisci hic praesentium est ullam.
