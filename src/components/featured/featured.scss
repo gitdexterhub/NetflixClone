@@ -46,7 +46,7 @@
         height: 218px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        background-color: black;
+        background: linear-gradient(transparent, rgb(0,0,0, 80) 100%);
         z-index: 999;
 
         .sub-menu-list{

@@ -79,28 +79,28 @@ export default function Featured() {
       </ul>
       <ul className="sub-menu-list multi-column">
         <li className="sub-menu-item">
-          <a href="#" className="sub-menu-link">Horror</a>
+          <a href="#" className="sub-menu-link">Science & Nature</a>
         </li>
         <li className="sub-menu-item">
-          <a href="#" className="sub-menu-link">Kids</a>
+          <a href="#" className="sub-menu-link">Soaps</a>
         </li>
         <li className="sub-menu-item">
-          <a href="#" className="sub-menu-link">Latin American</a>
+          <a href="#" className="sub-menu-link">Stand-Up Comedy</a>
         </li>
         <li className="sub-menu-item">
-          <a href="#" className="sub-menu-link">Mysteries</a>
+          <a href="#" className="sub-menu-link">Teen</a>
         </li>
         <li className="sub-menu-item">
-          <a href="#" className="sub-menu-link">Police</a>
+          <a href="#" className="sub-menu-link">The World of The Witcher</a>
         </li>
         <li className="sub-menu-item">
-          <a href="#" className="sub-menu-link">Reality & talk</a>
+          <a href="#" className="sub-menu-link">Thriller</a>
         </li>
         <li className="sub-menu-item">
-          <a href="#" className="sub-menu-link">Romance</a>
+          <a href="#" className="sub-menu-link">Unte in Pride</a>
         </li>
         <li className="sub-menu-item">
-          <a href="#" className="sub-menu-link">Sci-Fi & Fantasy</a>
+          <a href="#" className="sub-menu-link">US</a>
         </li>
       </ul>
   </div>
