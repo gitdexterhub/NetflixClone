@@ -106,7 +106,6 @@
             right: 50px;
             background-color: var(--main-color);
             display: none;
-    
             .profile-link{
                 display: flex;
                 color: white;
@@ -118,7 +117,7 @@
                     width: 32px;
                     height: 32px;
                 }
-            
+  
                 .profile-options{
                     margin-left: 10px;
                 }
@@ -128,6 +127,12 @@
                     height: 24px;
                 }
                 
+            }
+
+            .profile-link:hover{
+                .profile-options{
+                    border-bottom: 1px solid white;
+                }
             }
 
             .settings{
