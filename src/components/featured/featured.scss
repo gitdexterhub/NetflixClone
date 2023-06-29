@@ -1,0 +1,113 @@
+.featured{
+    height: 90vh;
+    position: relative;
+
+    .category{
+        position: absolute;
+        top: 80px;
+        width: 100%;
+        height: 69px;
+        display: flex;
+        align-items: center;
+        position: fixed;
+        span{
+            font-size: 38px;
+            font-weight: 500;
+            margin-right: 15px;
+            margin-left: 40px;
+        }
+        .genre-content{
+            width: 110px;
+            height: 30px;
+            display: flex;
+            border: 1px solid white;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: 20px;
+            background-color: black;
+            border-radius: 5px;
+            cursor: pointer;
+            p{
+                font-size: 15px;
+                margin-left: 5px;
+            }
+        }
+        .arrowDown{
+            width: 25px;
+        }
+       
+    }
+    .sub-menu{
+        position: absolute;
+        top: 20%;
+        left: 290px;
+        position: fixed;
+        width: 387px;
+        height: 218px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        background-color: black;
+        z-index: 999;
+
+        .sub-menu-list{
+            list-style: none;
+            margin: 5px 0px 0px 8px;
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 15px;
+            }
+            a:hover{
+                border-bottom: 1px solid white;
+            }
+        }
+    }
+    
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+    }
+    .info{
+        width: 35%;
+        position: relative;
+        left: 3%;
+        bottom: 60%;
+    }
+    .buttons{
+        display: flex;
+        margin-top: 15px;
+
+        .play{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 120px;
+            height: 47px;
+            cursor: pointer;
+            box-sizing: border-box;
+            border-radius: 10px;
+            font-weight: 500;
+            color: black;
+            background-color: white;
+        }
+
+        .info-btn{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 168px;
+            height: 47px;
+            background-color: rgba(109, 109, 110, 0.7);
+            cursor: pointer;
+            color: white;
+            box-sizing: border-box;
+            border-radius: 10px;
+            margin-left: 10px;
+            font-weight: 500;
+            span{
+                margin-left: 5px;
+            }
+        }
+    }
+}

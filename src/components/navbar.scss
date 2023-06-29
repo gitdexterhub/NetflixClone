@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 68px;
+    font-size: 14px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background: linear-gradient(to top, transparent 0%, rgb(0,0,0,0.3) 50%);
+
+    &.scrolled{
+        background-color: var(--main-color);
+    }
+
+    .container{
+        width: 100%;
+        height: 100%;
+        padding: 0px 45.337px 0px 45.337px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .left{
+            display: flex;
+            align-items: center;
+        }
+        .logo{
+            height: auto;
+            width: 92.5px;
+            margin-right: 45px;
+        }
+    }
+
+    .navOptions{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .list-content{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            list-style: none;
+            .navigation-tab{
+                margin-right: 17px;
+            }
+            a{
+                color: white;
+                text-decoration: none;
+            }
+            .linkedin{
+                color: aqua;
+            }
+        }
+    }
+
+    .rigth{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .icon{
+            cursor: pointer;
+        }
+        .searchTab{
+            margin-right: 10px;
+        }
+        .show-kids{
+            margin-right: 10px;
+        }
+        .notifications-menu{
+            margin-right: 10px;
+            height: 25px;
+        }
+        .arrowDown{
+            width: 25px;
+        }
+    }
+
+    .arrowUp{
+        position: absolute;
+        right: 70px;
+        top: 50px;
+        display: none;
+    }
+
+    .profile{
+        display: flex;
+        align-items: center;
+        
+        .principal-avatar{
+            border-radius: 5px;
+            width: 45px;
+            height: 45px;
+        }
+        .options{
+            width: 218.400px;
+            height: 294.750px;
+            position: absolute;
+            top: 74px;
+            right: 50px;
+            background-color: var(--main-color);
+            display: none;
+    
+            .profile-link{
+                display: flex;
+                color: white;
+                padding: 10px 5px 5px 5px;
+                align-items: center;
+                text-decoration: none;
+                .avatar-wrapper{
+                    border-radius: 5px;
+                    width: 32px;
+                    height: 32px;
+                }
+            
+                .profile-options{
+                    margin-left: 10px;
+                }
+                
+                .icon-edit{
+                    width: 24px;
+                    height: 24px;
+                }
+                
+            }
+
+            .settings{
+                margin-top: 10px;
+            }
+
+            .sigout-cont{
+                width: 100%;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-top: 0.1px solid white;
+                margin-top: 15px;
+            }
+    
+        }
+        &:hover{
+            .options{
+                display: block;
+            }
+            .arrowUp{
+                display: block;
+            }
+            .arrowDown{
+                transition: transform 0.3s ease;
+                transform: rotate(180deg);
+            }
+        }
+    }
+   
+}
